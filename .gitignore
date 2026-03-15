@@ -1,0 +1,34 @@
+# =====================
+# 認証情報・機密ファイル
+# =====================
+send_csv.bat
+send_csv.batは非公開！！
+
+# =====================
+# 投資戦略・スコアリングロジック
+# =====================
+module/function/scoring/scoring_cond*.py
+module/function/scoring/penalty_cond*.py
+module/target_scoring.py
+input/
+
+# =====================
+# 実行結果・個人データ
+# =====================
+output/
+snapshot/
+logs/
+data/
+
+# =====================
+# Pythonキャッシュ
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+
+# =====================
+# その他
+# =====================
+output_close - コピー.py
+*.log
